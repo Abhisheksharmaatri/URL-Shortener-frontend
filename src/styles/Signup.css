@@ -1,0 +1,88 @@
+/* CSS Styles */
+body {
+    margin-top: 25px;
+}
+
+.signup-container {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px 20px 0;
+    /* Adjust the padding for top and remove padding for bottom */
+    background-color: #ffffff;
+    border: none;
+    /* Remove the border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.signup-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-button {
+    background-color: #4285f4;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.signup-button:hover {
+    background-color: #357ae8;
+}
+
+.signup-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.signup-button {
+    background-color: #ffffff;
+    color: #4285f4;
+    font-size: 16px;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: #f0f0f0;
+}
